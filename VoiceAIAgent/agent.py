@@ -4,7 +4,7 @@ load_dotenv(".env")
 import asyncio
 from livekit import agents, rtc
 from livekit.agents import AgentSession, Agent
-from livekit.plugins import groq, noise_cancellation
+from livekit.plugins import groq, noise_cancellation, silero
 from prompts import AGENT_INSTRUCTION
 
 class Assistant(Agent):
