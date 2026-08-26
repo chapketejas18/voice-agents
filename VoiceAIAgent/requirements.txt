@@ -1,0 +1,12 @@
+livekit-agents[silero,turn-detector]
+livekit-agents
+livekit-agents[silero,turn-detector]~=1.2
+livekit-plugins-noise-cancellation~=0.2
+requests
+python-dotenv
+aiohttp
+boto3
+pydub
+piper-tts
+livekit-plugins-aws
+livekit-plugins-groq
